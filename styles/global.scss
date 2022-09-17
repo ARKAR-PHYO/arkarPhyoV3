@@ -4,7 +4,18 @@
 @import "tailwindcss/components";
 
 body {
-  @apply bg-slate-100 text-slate-900 font-Inter;
+  @apply text-slate-900 font-Inter bg-CetaceanBlue;
 }
 
 @import "tailwindcss/utilities";
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
