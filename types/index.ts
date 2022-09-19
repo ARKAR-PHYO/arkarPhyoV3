@@ -5,6 +5,10 @@ export interface LayoutProps {
 export interface HeroProps {}
 export interface HomeProps {
   experienceData: [];
+  projectData: [];
+}
+export interface ProjectsProps {
+  projectData: [];
 }
 export interface NavigationProps {
   isHam: boolean;
