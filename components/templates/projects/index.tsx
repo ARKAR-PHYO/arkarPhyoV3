@@ -4,7 +4,7 @@ import { ProjectsProps } from "../../../types";
 import PagesLayout from "../pagesLayout";
 
 const Projects: NextPage<ProjectsProps> = ({ projectData }) => {
-  console.log("projectData -->", projectData);
+  // console.log("projectData -->", projectData);
 
   return (
     <PagesLayout pageTitle="Projects that I'v built" className="my-16 ">
